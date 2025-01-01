@@ -1,0 +1,25 @@
+# Web Automation Testing with Selenium
+
+This project demonstrates web automation testing using Selenium WebDriver, TestNG, and page object models (POM). It includes various tests for common web applications, such as Google search and file upload.
+
+## Project Setup
+
+### Prerequisites
+Before running the tests, make sure you have the following installed:
+- Java 8 or higher
+- Maven
+- IDE (IntelliJ IDEA, Eclipse, etc.)
+
+## Getting Started
+
+### 1. Clone the Repository
+Clone the repository to your local machine using Git:
+git clone https://github.com/your-username/selenium-web-automation.git
+
+2. Configure the WebDriver
+The WebDriver is managed by WebDriverManager, so there’s no need to manually download browser drivers. It will automatically handle the setup when tests are run.
+
+3. Run the Tests
+
+4. View Test Reports
+TestNG generates a detailed HTML report located in the /test-output directory after the tests have completed.
