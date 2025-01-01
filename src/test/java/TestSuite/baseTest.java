@@ -49,5 +49,6 @@ public class baseTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        driver.quit();
     }
 }
