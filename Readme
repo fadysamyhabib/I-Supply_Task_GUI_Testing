@@ -14,7 +14,7 @@ Before running the tests, make sure you have the following installed:
 
 ### 1. Clone the Repository
 Clone the repository to your local machine using Git:
-git clone https://github.com/your-username/selenium-web-automation.git
+git clone https://github.com/fadysamyhabib/I-Supply_Task_GUI_Testing.git
 
 2. Configure the WebDriver
 The WebDriver is managed by WebDriverManager, so there’s no need to manually download browser drivers. It will automatically handle the setup when tests are run.
