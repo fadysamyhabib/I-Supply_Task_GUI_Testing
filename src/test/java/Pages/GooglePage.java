@@ -24,20 +24,6 @@ public class GooglePage {
     // Locator for the third search result (using XPath)
     By thirdResultText = By.xpath("(//div[@class='g'])[3]");
 
-    /*
-    // Example setup method (commented out) to load properties file for configurations
-    @BeforeClass
-    public void setUp() {
-        properties = new Properties();
-        try {
-            FileInputStream file = new FileInputStream("src/test/resources/config.properties");
-            properties.load(file); // Load properties from the config file
-        } catch (Exception e) {
-            e.printStackTrace(); // Print error stack trace if loading properties fails
-        }
-    }
-    */
-
     // Function to type a search query in the search bar and press the Enter key
     public void submitSearch(){
         // Find the search bar element and type the query
